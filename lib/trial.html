@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<title>W3.JS</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body class="w3-container">
+
+<h2>Testing W3.JS with CSS</h2>
+
+<h2>Sort Tables</h2>
+
+<p>Click the table headers to sort the table accordingly:</p>
+
+<table id="myTable">
+    <tr>
+        <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(1)')" style="cursor:pointer">Name</th>
+        <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(2)')" style="cursor:pointer">Country</th>
+    </tr>
+    <tr class="item">
+        <td>Berglunds snabbköp</td>
+        <td>Sweden</td>
+    </tr>
+    <tr class="item">
+        <td>North/South</td>
+        <td>UK</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
